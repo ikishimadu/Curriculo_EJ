@@ -1,0 +1,261 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+}
+
+section{
+    margin: 60px 0;
+}
+
+footer{
+    padding: 20px 0;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0;
+}
+
+h2{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+a{
+    color:#595454;
+    text-decoration: none;
+}
+
+p{
+    color: aliceblue;
+    font-size: medium;
+    padding: 20px;
+    width: auto;
+
+}
+
+/* classes e ids*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo img{
+    width: 100px;
+}
+
+#sobre p{
+    padding: 40px;
+    margin: 40px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-center ul li{
+    width: 400px;
+    padding: 10px;
+    padding-top: -50px;
+}
+
+.header-navbar ul{
+    height: 100%;
+}
+
+.header-navbar ul li{
+    margin: 0 10px 0 10px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.header-navbar ul li a:hover{
+    color: #6993d5;
+}
+
+.header-social-media ul{
+    height: 100%;
+}
+
+.header-social-media  i{
+    width: 50px;
+}
+
+.header-social-media ul li{
+    margin-top: 0 10px 0 10px;
+    list-style: none;
+}
+
+.header-social-media ul li a:hover{
+    color:  #6993d5;
+}
+
+.btn-header {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 84px;
+    padding: 10px 25px;
+    border: 2px solid #6993d5;
+    background-color: #595454;
+    color: black;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition: ease .50s;
+}
+
+#imagem-sobre{
+    width: 40%;
+}
+
+#imagem-sobre img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#sobre{
+    width: 60%;
+    padding-left: 20px;
+}
+
+/* galeria de fotos*/
+
+.gallery{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-card{
+    width: 30%;
+    height: 400px;
+    border: 1px solid #595454 ;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.gallery-card-btn{
+    padding: 10px 15px;
+    border: 2px solid black;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: rgba(89, 84, 84, 0.5);
+    transition: .6s;
+}
+
+.gallery-card-btn:hover{
+    background-color: white;
+}
+
+.gallery-img{
+    background-size: 100%;
+    background-position: center;
+    background-color: #6993d5;
+    background-blend-mode: multiply;
+    transition: .6s;
+}
+
+.gallery-img:hover{
+    background-size: 120%;
+    background-color: white;
+    background-blend-mode: multiply;
+}
+
+#card-1{
+    background-image: url(../images/cardone.jpg);
+}
+
+#card-2{
+    background-image: url(../images/cardtwo.jpg);
+}
+
+#card-3{
+    background-image: url(../images/cardtree.jpg);
+}
+
+/* contato */
+
+.dados-pessoais{
+    list-style: none;
+}
+
+
+#dados-contato{
+    width: 45%;
+    left: 20px;
+}
+
+#form{
+    width: 45%;
+}
+
+#form p, label, input, button, textarea{
+   margin: 10px;
+}
+
+.btn-submit{
+    border: 2px solid #595454 ;
+    background-color: #6993d5;
+    width: 550px;
+}
+
+.form-grup{
+    padding: 5px 0;
+}
+
+
+
+/* whatsapp */
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.whats img{
+    width: 50px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
